@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="js/otentikasi.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .base {
+            display: flex;
+            justify-content: center;
+            margin: 2rem 0 0 0;
+
+        }
+
+        h2 {
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 1rem;
+        }
+
+        input {
+            margin-bottom: 1em;
+            width: 145px;
+        }
+
+        button {
+            margin-bottom: 2em;
+            width: 150px;
+        }
+
+        .body-login{
+            display: flex;
+            justify-content: center;
+        }
+
+        .body-login p{
+            text-align: center;
+        }
+
+        .note {
+            box-sizing: border-box;
+            background-color: silver;
+            border: 1px solid black;
+            padding: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="base">
+        <div>
+            <div>
+                <h2>Authentication Login</h2>
+            </div>
+            <div class="body-login">
+                <div>
+                    <p>Username</p>
+                    <input type="text" id="user">
+                    <p>Password</p>
+                    <input type="text" id="pass"><br>
+                    <button onclick="Login()">Login</button><br>
+                </div>
+            </div>
+
+            <div class="note">
+                <p>Note :</p>
+                <table>
+                    <tr>
+                        <td>Username</td>
+                        <td>: Fadhilah123</td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>: fadh21268</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

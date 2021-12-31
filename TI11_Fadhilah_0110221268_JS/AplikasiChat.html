@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2 Aplikasi Chat</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .kolomChat {
+            height: 500px;
+            width: 340px;
+            overflow: auto;
+        }
+
+        .klmcht {
+            padding: 5px;
+            border: black 1px solid;
+        }
+
+        .btn {
+            height: 20px;
+            width: 48px;
+            border-radius: 2px;
+            background-color: rgb(124, 124, 255);
+        }
+
+        .btn:hover {
+            background-color: blue;
+            color: white;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+
+        .btn:active {
+            background-color: blue;
+            transform: translateY(1px);
+        }
+
+        .head-box {
+            border: black 1px solid;
+            height: 50px;
+            width: 350px;
+            background-color: silver;
+            text-align: center;
+            line-height: 45px;
+        }
+
+        .main-box {
+            display: flex;
+            justify-content: center;
+            margin: 1rem;
+        }
+
+        .foot-box {
+            padding: 2px 2px;
+            border: black 1px solid;
+            background-color: silver;
+        }
+
+        .kotakPesan {
+            height: 20px;
+            width: 290px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-box">
+        <div>
+            <div class="head-box">
+                <p>Chatbox</p>
+            </div>
+            <div class="klmcht">
+                <div id="isichat" class="kolomChat"></div>
+            </div>
+            <div class="foot-box">
+                <input type="text" id="input" class="kotakPesan" autocomplete="off" onchange="chatbox()">
+                <button id="kirim" onclick="chatbox()" class="btn">Kirim</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function chatbox() {
+            let inp = document.getElementById("input").value;
+            let isi = document.createElement("p");
+            isi.innerHTML = inp;
+            document.getElementById("isichat").appendChild(isi);
+        }
+    </script>
+</body>
+
+</html>
