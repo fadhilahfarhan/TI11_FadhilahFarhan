@@ -1,0 +1,96 @@
+.bg-costume{
+    background-color: #707070;
+}
+
+.jumbotron{
+    height: auto;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.p-indent-bottom{
+    height: 180px;
+    text-align: justify;
+}
+.content-indent-bottom{
+    height: 390px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 600;
+}
+
+.isijumbotron{
+    text-align: center;
+    padding: 8% 0;
+}
+.a-special{
+    list-style: none;
+}
+.btn-special{
+    width: 100%;
+}
+header{
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eeeeee;
+    padding-bottom: 1rem;
+}
+.foot-container{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #707070;
+    padding: 1.1rem 0;
+}
+.card img{
+    width: auto;
+    height: auto;
+    margin: 4em 4em 2em 4em;
+}
+.formm{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem 0 0 0;
+}
+.contact-list{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0 0 0 ;
+}
+.contact-list li{
+    margin: 1em;
+    list-style: none;
+}
+.card li{
+    margin: 1em;
+}
+.card{
+    width: 18rem;
+}
+.cardd{
+    display: flex;
+    justify-content: center;
+}
+
+.tittle-h2{
+    margin: 6rem 0;
+    text-align: center;
+}
+
+.cpyrght{
+    margin: 0;
+}
+
+.form-sizze{
+    width: 700px;
+    padding: 2%;
+}
