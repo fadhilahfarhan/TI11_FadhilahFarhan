@@ -61,3 +61,4 @@ echo $animal->index() . "<br>";
 echo "Delete - Menghapus hewan <br>";
 echo $animal->destroy(1);
 echo $animal->index() . "<br>";
+?>
